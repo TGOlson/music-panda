@@ -47,6 +47,7 @@ body {
 	font-family: "Comic Sans MS", cursive, sans-serif;
 	text-align: center;
 	padding-left: 40px;
+	margin: auto;
 	}
 
 .box2 {
@@ -56,13 +57,14 @@ body {
 	display: inline-block;
 	}
 	
-.currenticon {
+.currenticon a {
 	width: 90px;
 	height: 110px;
 	color: rgba(255, 255, 255, 0.5);
 	float: left;
 	font-size: 25px;
 	text-align: left;
+	text-decoration: none;
 	}
 	
 span {
@@ -110,7 +112,7 @@ div .box2:hover .iconmenu {
 display: inline;	
 	}
 	
-div .box2:hover .currenticon {
+div .box2:hover .currenticon a {
 	color: rgba(255, 255, 255, 0.25);
 	}
 	

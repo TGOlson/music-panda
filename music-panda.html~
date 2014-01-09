@@ -11,12 +11,6 @@
 	<!-- font awesome -->
 	<link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.0/css/font-awesome.css" rel="stylesheet">
 
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
-      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
-                    <link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
-                                   <link rel="shortcut icon" href="../assets/ico/favicon.png">
-
 <script type="text/javascript">
 
 	var pl = 'home';
@@ -123,7 +117,7 @@
 	
 		<div class="box2">				
 			<div class="currenticon">
-				<a href="javascript:void(0)" id="placelevel"><i class="icon-home icon-4x"></i></a>
+				<a id="placelevel"><i class="icon-home icon-4x"></i></a>
 			</div>	
 			<div class="iconmenu">
 				<a id="" onclick="place('home');"><i class="icon-home icon-2x"></i></a>
@@ -134,7 +128,7 @@
 	
 		<div class="box2">				
 			<div class="currenticon">
-				<a href="javascript:void(0)" id="moodlevel"><i class="icon-smile icon-4x"></i></a>
+				<a id="moodlevel"><i class="icon-smile icon-4x"></i></a>
 			</div>	
 			<div class="iconmenu">
 				<a id="" onclick="mood('smile');"><i class="icon-smile icon-2x"></i></a>
@@ -145,7 +139,7 @@
 		
 		<div class="box2">				
 			<div class="currenticon">
-				<a href="javascript:void(0)" id="volumelevel"><i class="icon-volume-up icon-4x"></i></a>
+				<a id="volumelevel"><i class="icon-volume-up icon-4x"></i></a>
 			</div>	
 			<div class="iconmenu">
 				<a id="" onclick="volume('up');"><i class="icon-volume-up icon-2x"></i></a>
@@ -157,8 +151,6 @@
 	</div>
 	<p class='hint'>where are you? &nbsp;&nbsp;&nbsp;&nbsp; / &nbsp;&nbsp;&nbsp;&nbsp; how ya' feeling? &nbsp;&nbsp;&nbsp;&nbsp; / &nbsp;&nbsp;&nbsp;&nbsp; what volume?</p>
 </div>
-
-<p id="footer">created by <a href="http://tgolson.com" target='_blank'>tyler olson</a></p>
 
 </body>
 </html>
